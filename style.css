@@ -19,7 +19,15 @@ body{
     min-width:300px;
     width:60vw;
   }
-  
+
+  fieldset {
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+    
   label{
     display:block;
     margin:0.5rem 0;
