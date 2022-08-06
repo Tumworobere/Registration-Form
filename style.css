@@ -22,10 +22,12 @@ body{
 
   fieldset {
     border: none;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+	  padding: 2rem 0;
+    border-bottom:3px solid #3b3b4f;
+    }
+
+    fieldset:last-of-type { 
+      border-bottom: none;
     }
     
   label{
