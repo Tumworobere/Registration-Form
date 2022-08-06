@@ -14,10 +14,15 @@
           <label>Enter Your First Name: <input type="text" required></label>
           <label>Enter Your Last Name: <input type="text" required></label>
           <label>Enter Your Email: <input type="email" required></label>
-          <label>Create a New Password: <input type="password" minlength="8" required></label>
+          <label>Create a New Password: <input pattern="[a-z0-5]{8,}" type="password" required /></label>
         </fieldset>
+              <fieldset>
+                  <label> <input type="radio"></label>
+                  <label> <input type="radio"></label>
+                  <label><input type="checkbox" required></label>
+              </fieldset>
               <fieldset></fieldset>
-              <fieldset></fieldset>
+
               <input type="submit" value="Submit"></input>
             </form>
   </body>
